@@ -1,10 +1,12 @@
 public class User {
     String nickname;
     String password;
+    private boolean userIsAdmin;
 
-    public User(String nickname, String password) {
+    public User(String nickname, String password, boolean userIsAdmin) {
         this.nickname = nickname;
         this.password = password;
+        this.userIsAdmin = userIsAdmin;
     }
 
     public String getNickname() {
@@ -22,4 +24,13 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public boolean isUserIsAdmin() {
+        return userIsAdmin;
+    }
+
+    public void setUserIsAdmin(boolean userIsAdmin) {
+        this.userIsAdmin = userIsAdmin;
+    }
+    
 }
