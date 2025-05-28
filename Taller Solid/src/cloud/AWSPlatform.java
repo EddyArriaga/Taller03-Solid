@@ -1,3 +1,5 @@
+package cloud;
+
 public class AWSPlatform implements CloudService {
     @Override
     public void connectToCloud() {

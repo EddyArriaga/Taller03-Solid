@@ -1,3 +1,5 @@
+package cloud;
+
 public class MicrosoftAzurePlatform implements CloudService{
     @Override
     public void connectToCloud() {

@@ -1,3 +1,5 @@
+package cloud;
+
 public class GoogleCloudPlatform implements CloudService {
     @Override
     public void connectToCloud() {
